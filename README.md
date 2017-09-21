@@ -59,6 +59,8 @@ The median age of those patients who failed to show up for their appointment is 
 
 ![status by Age](https://user-images.githubusercontent.com/2644463/30722411-50343430-9eee-11e7-9af7-b226e8f94a59.PNG)
 
+Among female patients, 30% failed to show up; 31% male patients failed to show up. 
+
 
 
 Reference
