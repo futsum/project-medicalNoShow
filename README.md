@@ -71,6 +71,10 @@ About 57% of patients received an sms message reminders. The data shows that the
 
 ![Status By SMS Reminder](https://user-images.githubusercontent.com/2644463/30723418-80ee0f00-9ef4-11e7-940a-d09c91a272db.PNG)
 
+The median waiting period for no-show is 11 days comparing to 7 days for show-up. 
+
+
+
 
 
 Reference
