@@ -13,7 +13,7 @@ A dataset -Medical Appointment No-Shows, from Kaggle will be used for this proje
 Exploratory Data Analysis
 
 
-The dataset has 15 variables and 300,000 observations. Our target variable is Status; we are interested in the variable Status as we are trying to predict those patients who are inclined to miss medical appointments. The explanatory variables are: 
+The dataset has 15 variables and 300,000 observations. Our target variable is Status; we are interested in the variable Status as we are trying to predict those patients who are inclined to miss medical appointments. There are no missing values in our dataset. The explanatory variables are: 
 
 •	Age of patients
 
