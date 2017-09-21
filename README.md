@@ -69,6 +69,7 @@ Ten percent of the patients are in scholarship. Among those in scholarship, 36% 
 
 About 57% of patients received an sms message reminders. The data shows that there was no difference on the percentage of no-show (30%) between those who received sms message reminders and those who didn’t. Text message reminders doesn’t seem to help patients to keep their medical appointments. 
 
+![Status By SMS Reminder](https://user-images.githubusercontent.com/2644463/30723418-80ee0f00-9ef4-11e7-940a-d09c91a272db.PNG)
 
 
 
