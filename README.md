@@ -14,18 +14,31 @@ Exploratory Data Analysis
 
 
 The dataset has 15 variables and 300,000 observations. Our target variable is Status; we are interested in the variable Status as we are trying to predict those patients who are inclined to miss medical appointments. The explanatory variables are: 
+
 •	Age of patients
+
 •	Gender
+
 •	The date appointment was registered
+
 •	The appointment data
+
 •	Day of the appointment week
+
 •	Diabetes
+
 •	Alcoholism
+
 •	Hypertension
+
 •	Handicap
+
 •	Smoking habit
+
 •	Tuberculosis
+
 •	Sms Reminder - whether a patient is reminded using sms message
+
 •	Awaiting time – the number of days a patient has to wait to see a doctor
 
 Reference
