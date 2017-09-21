@@ -63,6 +63,8 @@ Among female patients, 30% failed to show up; 31% male patients failed to show u
 
 ![Status by Gender](https://user-images.githubusercontent.com/2644463/30722604-640c8a88-9eef-11e7-98f2-c5aa0a729fab.PNG)
 
+Ten percent of the patients are in scholarship. Among those in scholarship, 36% failed to show up for their medical appoints; in contrast only 30% among those without scholarship. 
+
 
 
 Reference
