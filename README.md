@@ -51,9 +51,11 @@ The median age of the patients is 38 and there are more than twice women patient
 
 ![summary](https://user-images.githubusercontent.com/2644463/30721186-0396cbac-9ee8-11e7-89bb-957b99636470.PNG)
 
-When we look at the appointment status, about 30% of patients fail to show up for their appointments. 
+When we look at the appointment status, about 30% of patients failed to show up for their appointments; more patients (70%) kept their appointments.  
 
 ![status](https://user-images.githubusercontent.com/2644463/30722033-16dc1222-9eec-11e7-810d-bc4cee0e651c.PNG)
+
+The median age of those patients who failed to show up for their appointment is 33; in contrast, the median age for those who showed up is 40. It seems that on average younger patients failed to show up more than the older patients. 
 
 
 
