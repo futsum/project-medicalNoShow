@@ -85,7 +85,7 @@ July saw the highest appointment record followed by October. Among the months, D
 
 ![Status by Month](https://user-images.githubusercontent.com/2644463/30725190-00d9b196-9f00-11e7-92a6-055bec1541bc.PNG)
 
-![Status by MonthII]()
+![Status by MonthII](https://user-images.githubusercontent.com/2644463/30725193-09eaed9a-9f00-11e7-9600-27f53c9f24a3.PNG)
 
 
 
