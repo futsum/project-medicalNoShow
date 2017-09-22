@@ -83,6 +83,9 @@ The highest number of appointments was recorded on Wednesdays followed by Tuesda
 
 July saw the highest appointment record followed by October. Among the months, December seems to record relatively the highest proportion of no-show followed by July. 
 
+![Status by Month](https://user-images.githubusercontent.com/2644463/30725190-00d9b196-9f00-11e7-92a6-055bec1541bc.PNG)
+
+![Status by MonthII]()
 
 
 
