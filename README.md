@@ -79,7 +79,7 @@ The highest number of appointments was recorded on Wednesdays followed by Tuesda
 
 ![Status by Day](https://user-images.githubusercontent.com/2644463/30724695-ef5cfac0-9efc-11e7-9f73-5c8e7ddea308.PNG)
 
-![Status by DayII)
+![Status by DayII](https://user-images.githubusercontent.com/2644463/30724705-faf85762-9efc-11e7-9191-36555af09e7e.PNG)
 
 
 
