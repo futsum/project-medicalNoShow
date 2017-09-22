@@ -77,7 +77,9 @@ The median waiting period for no-show is 11 days comparing to 7 days for show-up
 
 The highest number of appointments was recorded on Wednesdays followed by Tuesdays; only 4 appointments on Sundays. At 1338 number of observations (0.45% overall observations), Saturday seems to record the highest no-shows followed by Monday (21.26% overall observations). 
 
+![Status by Day](https://user-images.githubusercontent.com/2644463/30724695-ef5cfac0-9efc-11e7-9f73-5c8e7ddea308.PNG)
 
+![Status by DayII)
 
 
 
