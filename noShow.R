@@ -175,7 +175,7 @@ ggplot(noshow, aes(App_Month, fill = Status)) +
 ggplot(noshow, aes(App_Month, fill = Status)) +
   geom_bar(position = 'fill') 
 
-#proportion of appointment status by the day of the week
+#proportion of appointment status by the appointment month
 table(noshow$App_Month)
 round(prop.table(table(noshow$App_Month)) * 100,2)
 round(prop.table(table(noshow$App_Month[noshow$Status == 'No-Show'])) * 100, 2)
