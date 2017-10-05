@@ -88,6 +88,11 @@ July saw the highest appointment record followed by October. Among the months, D
 ![Status by MonthII](https://user-images.githubusercontent.com/2644463/30725193-09eaed9a-9f00-11e7-9600-27f53c9f24a3.PNG)
 
 
+Preparing the data for model building
+
+Because the observations (299,996) in the dataset is fairly large, only 10% (29,831) of the observations is used for this project. The observations are randomly selected from the original data; that is, the composition of the new subset data is the same as the original data with 30% no-shows. This will significantly reduce the computing time of the analysis.
+
+
 
 
 
