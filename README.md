@@ -98,6 +98,13 @@ The categorical variables (Gender, Day, & Appointment Month) are converted into 
 
 ![Dummy variables](https://user-images.githubusercontent.com/2644463/31247054-af2aa36e-a9cc-11e7-8819-94101929572e.PNG)
 
+Normalizing some of the variables
+
+The range of the values of some of the variables (Age & Awaiting Time) is wider than the rest of the variables. These two variables need to be normalized so that they don’t have unfair influence on the classifier. After normalizing these variables, the result is that all the variables are with the range of 0 and 1. 
+
+
+![Normilized Variables](https://user-images.githubusercontent.com/2644463/31247557-3009c4aa-a9ce-11e7-9231-c11ca185d441.PNG)
+
 
 
 
