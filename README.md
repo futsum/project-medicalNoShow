@@ -175,6 +175,13 @@ This classifier has an overall accuracy rate of 69.66%, sensitivity rate of 1.8%
 
 ![Ann perfromance2](https://user-images.githubusercontent.com/2644463/31261885-5fd56400-aa14-11e7-9324-5e0299a2f052.PNG)
 
+SVM model using the selected features
+
+Using the selected features, another SVM classifier was built. 
+
+![SVM Feature Model](https://user-images.githubusercontent.com/2644463/31263190-e8a05e58-aa1d-11e7-8c8e-5a71b30438a9.PNG)
+
+This model produced the same performance outcome as the previous SVM model.
 
 
 
