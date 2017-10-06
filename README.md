@@ -142,6 +142,15 @@ The overall accuracy of the learner is 66.92%. The sensitivity rate (true positi
 
 ![Ann Performance1](https://user-images.githubusercontent.com/2644463/31260968-c2ebc256-aa0e-11e7-9be5-59f356ca8d72.PNG)
 
+Support Vector Machine (SVM) Model
+
+Support Vector Machine (SVM) was used to develop a classifier and compare it with the ANN model. The e1071 package was used to develop a SVM learner. 
+
+![SVM Model1](https://user-images.githubusercontent.com/2644463/31262726-525c5666-aa1a-11e7-8f46-048db47c41a9.PNG)
+
+![SVM Performance]()
+
+
 Feature Selection
 Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of feature that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
 
@@ -160,6 +169,8 @@ Using the selected features, another ANN classifier was built.
 This classifier has an overall accuracy rate of 69.66%, sensitivity rate of 1.8%, and a specificity rate of 99%. The selected features improves neither the accuracy rate nor the sensitivity rate. 
 
 ![Ann perfromance2](https://user-images.githubusercontent.com/2644463/31261885-5fd56400-aa14-11e7-9324-5e0299a2f052.PNG)
+
+
 
 
 
