@@ -149,7 +149,7 @@ Can we improve the model’s performance using feature selection? Feature select
 
 Listing the importance of the selected features:
 
-![Importance of Features]()
+![Importance of Features](https://user-images.githubusercontent.com/2644463/31261533-136d6d76-aa12-11e7-979a-c63a0c4e3a44.PNG)
 
 
 
