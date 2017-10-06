@@ -108,6 +108,13 @@ Now, the new dataset consists the targeted, normalized, dummied and the rest of 
 
 ![new data](https://user-images.githubusercontent.com/2644463/31247910-471772a4-a9cf-11e7-946a-0b1288537f8d.PNG)
 
+Training and Test Sets
+
+The dataset is split into training (70%) and test (30%) sets; training set is used to train the learner and a test set is used to evaluate the performance of the learner. Both sets reflect the original dataset with a record of 30% of no-shows and 70% show-ups. 
+
+
+![proportion of Status] (https://user-images.githubusercontent.com/2644463/31259609-3e2c95f8-aa05-11e7-9034-2a93b204d0f7.PNG)
+
 
 
 
