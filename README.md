@@ -183,6 +183,7 @@ Using the selected features, another SVM classifier was built.
 
 This model produced the same performance outcome as the previous SVM model.
 
+![SVM performance2](https://user-images.githubusercontent.com/2644463/31263217-089703c4-aa1e-11e7-96a4-93cac3c31099.PNG)
 
 
 
