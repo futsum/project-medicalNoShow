@@ -115,6 +115,18 @@ The dataset is split into training (70%) and test (30%) sets; training set is us
 
 ![proportion of Status](https://user-images.githubusercontent.com/2644463/31259609-3e2c95f8-aa05-11e7-9034-2a93b204d0f7.PNG)
 
+Model Building
+
+Artificial Neural Network (ANN) Model
+
+In this project, the nnet package is used to build an artificial neural network (ANN) classifier. The ANN classifier was trained using the training set. With some trial and error on the parameters of the nnet function, a hidden layer of size 30, a maximum iteration of 1000, and a decay of 5e-4 seems to produce a better outcome. 
+
+![ANN model1](https://user-images.githubusercontent.com/2644463/31260179-562d29ac-aa09-11e7-85d0-3a4889d0542f.PNG)
+
+The model is a 31-30-1 network with 991 weights. 
+
+![]()
+
 
 
 
