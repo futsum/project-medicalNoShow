@@ -125,7 +125,7 @@ In this project, the nnet package is used to build an artificial neural network 
 
 The model is a 31-30-1 network with 991 weights. 
 
-![]()
+![Ann Summary1](https://user-images.githubusercontent.com/2644463/31260185-5d1bfc66-aa09-11e7-9ba4-de68a7607625.PNG)
 
 
 
