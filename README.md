@@ -150,7 +150,7 @@ Support Vector Machine (SVM) was used to develop a classifier and compare it wit
 
 ![SVM Summary1](https://user-images.githubusercontent.com/2644463/31262884-7da1c1a2-aa1b-11e7-8210-87ef006b8d83.PNG)
 
-Different kernel types have been used to develop the SVM learner; they all produce the same performance. The overall accuracy rate is 69.73%, which is an improvement from the ANN model. The specificity rate is 100% but the sensitivity rate is 0%; the SVM model misclassified all the no-shows as show-ups. At 0%, the Kappa rate indicates that the agreement between the predicted values and the observed values is very poor. Since our goal is to identify the potential no-show patients, this model performed very poor. 
+Different kernel types (linear, radial, and sigmoid) have been used to develop the SVM learner; they all produce the same performance. The overall accuracy rate is 69.73%, which is an improvement from the ANN model. The specificity rate is 100% but the sensitivity rate is 0%; the SVM model misclassified all the no-shows as show-ups. At 0%, the Kappa rate indicates that the agreement between the predicted values and the observed values is very poor. Since our goal is to identify the potential no-show patients, this model performed very poor. 
 
 ![SVM Performance](https://user-images.githubusercontent.com/2644463/31262735-66fd8428-aa1a-11e7-85c1-2123a9351c3d.PNG)
 
