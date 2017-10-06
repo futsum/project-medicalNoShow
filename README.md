@@ -142,6 +142,15 @@ The overall accuracy of the learner is 66.92%. The sensitivity rate (true positi
 
 ![Ann Performance1](https://user-images.githubusercontent.com/2644463/31260968-c2ebc256-aa0e-11e7-9be5-59f356ca8d72.PNG)
 
+Feature Selection
+Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of feature that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
+
+![Selected Features](https://user-images.githubusercontent.com/2644463/31261532-0c8002da-aa12-11e7-8894-fd0b15113478.PNG)
+
+Listing the importance of the selected features:
+
+![Importance of Features]()
+
 
 
 Reference
