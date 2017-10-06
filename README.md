@@ -159,7 +159,7 @@ Using the selected features, another ANN classifier was built.
 
 This classifier has an overall accuracy rate of 69.66%, sensitivity rate of 1.8%, and a specificity rate of 99%. The selected features didn’t improve either the accuracy rate or the sensitivity rate. 
 
-![Ann perfromance2]()
+![Ann perfromance2](https://user-images.githubusercontent.com/2644463/31261885-5fd56400-aa14-11e7-9324-5e0299a2f052.PNG)
 
 
 
