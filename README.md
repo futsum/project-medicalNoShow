@@ -148,12 +148,15 @@ Support Vector Machine (SVM) was used to develop a classifier and compare it wit
 
 ![SVM Model1](https://user-images.githubusercontent.com/2644463/31262726-525c5666-aa1a-11e7-8f46-048db47c41a9.PNG)
 
+![SVM Summary1](https://user-images.githubusercontent.com/2644463/31262884-7da1c1a2-aa1b-11e7-8210-87ef006b8d83.PNG)
+
 Different kernel types have been used to develop the SVM learner; they all produce the same performance. The overall accuracy rate is 69.73%, which is an improvement from the ANN model. The specificity rate is 100% but the sensitivity rate is 0%; the SVM model misclassified all the no-shows as show-ups. At 0%, the Kappa rate indicates that the agreement between the predicted values and the observed values is very poor. Since our goal is to identify the potential no-show patients, this model performed very poor. 
 
 ![SVM Performance](https://user-images.githubusercontent.com/2644463/31262735-66fd8428-aa1a-11e7-85c1-2123a9351c3d.PNG)
 
 
 Feature Selection
+
 Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of feature that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
 
 ![Selected Features](https://user-images.githubusercontent.com/2644463/31261532-0c8002da-aa12-11e7-8894-fd0b15113478.PNG)
