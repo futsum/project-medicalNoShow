@@ -134,7 +134,7 @@ The ANN classifier was used to predict the status of the examples in the test se
 
 The prediction outcome of the first 6 examples are:
 
-![Ann Prediction Outcome1]()
+![Ann Prediction Outcome1](https://user-images.githubusercontent.com/2644463/31260434-2420a004-aa0b-11e7-9eed-b72943d5c030.PNG)
 
 
 
