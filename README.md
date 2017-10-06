@@ -151,6 +151,16 @@ Listing the importance of the selected features:
 
 ![Importance of Features](https://user-images.githubusercontent.com/2644463/31261533-136d6d76-aa12-11e7-979a-c63a0c4e3a44.PNG)
 
+ANN model using the selected features
+
+Using the selected features, another ANN classifier was built. 
+
+![Ann Model2](https://user-images.githubusercontent.com/2644463/31261878-56ee6e9a-aa14-11e7-8d99-5183a509d43d.PNG)
+
+This classifier has an overall accuracy rate of 69.66%, sensitivity rate of 1.8%, and a specificity rate of 99%. The selected features didn’t improve either the accuracy rate or the sensitivity rate. 
+
+![Ann perfromance2]()
+
 
 
 Reference
