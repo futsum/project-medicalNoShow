@@ -136,6 +136,11 @@ The prediction outcome of the first 6 examples are:
 
 ![Ann Prediction Outcome1](https://user-images.githubusercontent.com/2644463/31260434-2420a004-aa0b-11e7-9eed-b72943d5c030.PNG)
 
+Performance Evaluation
+
+The overall accuracy of the learner is 66.92%. The sensitivity rate (true positive or no-show agreement between the predicted and the observed values) is 13.4% and the specificity rate (true negative or show-up agreement between the predicted and the observed values) is 90%. A Kappa of 4.3% indicates a poor agreement between the predicted and observed values. The interest of the project is to target potential no-show patients. At 13.4%, the model misclassified 2,334 no-show patients as show-up patients. At this sensitivity rate, the model’s performance can be considered as poor. Had the interest been on the show-up, a 90% specificity rate could have been considered a strong performance. 
+
+![Ann Performance1](https://user-images.githubusercontent.com/2644463/31260968-c2ebc256-aa0e-11e7-9be5-59f356ca8d72.PNG)
 
 
 
