@@ -127,6 +127,15 @@ The model is a 31-30-1 network with 991 weights.
 
 ![Ann Summary1](https://user-images.githubusercontent.com/2644463/31260185-5d1bfc66-aa09-11e7-9ba4-de68a7607625.PNG)
 
+Prediction 
+The ANN classifier was used to predict the status of the examples in the test set. 
+
+![Ann prediction1](https://user-images.githubusercontent.com/2644463/31260424-14d89750-aa0b-11e7-920b-86836c1367c3.PNG)
+
+The prediction outcome of the first 6 examples are:
+
+![Ann Prediction Outcome1]()
+
 
 
 
