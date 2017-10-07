@@ -223,7 +223,7 @@ Using the best parameters, an SVM model was built:
 
 Using the best gamma and cost parameters, the accuracy rate of a SVM learners is 61%, specificity of 70.76%, and sensitivity of 39%. The accuracy and specificity rates are better than the above the SVM model build using only the balanced dataset; however, the sensitivity rate is lower. 
 
-
+![smv tuned performance](https://user-images.githubusercontent.com/2644463/31310992-31acdb9c-ab60-11e7-9fa8-215417006309.PNG)
 
 
 
