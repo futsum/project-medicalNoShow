@@ -87,6 +87,10 @@ July saw the highest appointment record followed by October. Among the months, D
 
 ![Status by MonthII](https://user-images.githubusercontent.com/2644463/30725193-09eaed9a-9f00-11e7-9600-27f53c9f24a3.PNG)
 
+There seems to be slightly more no-shows in younger (roughly below 45) ages than older ones. Also, long waiting period was observed for children and adults with age roughly above 35 years old. 
+
+![Age Awaitint Time](https://user-images.githubusercontent.com/2644463/31311662-244fbf6a-ab6e-11e7-92c7-c95324aad298.PNG)
+
 
 Preparing the data for model building
 
