@@ -185,6 +185,23 @@ This model produced the same performance outcome as the previous SVM model.
 
 ![SVM performance2](https://user-images.githubusercontent.com/2644463/31263217-089703c4-aa1e-11e7-96a4-93cac3c31099.PNG)
 
+Balancing the dataset
+
+The poor sensitivity rate observed in both the ANN and SVM learners is an indication of an imbalanced classification dataset; the majority status of the examples is a show-up; show-ups outnumber no-shows. The model is not getting enough information about the minority (no-show) status. Therefore, the model is biased towards show-ups, and it misclassifies the no-shows as show-ups when predicting the status of an example. 
+
+To balance the dataset, ROSS package has been used. 
+
+![Ross balanced]()
+
+Using oversampling technique, ROSE replicated the now-show observations to balance the dataset. Now, the proportion of the dataset is 50% of each class. 
+
+![Balanced data Proportion]()
+
+Using the balanced dataset, the accuracy rate of an ANN model is 60.82% and the specificity rate is 72.45%, both metrics are less than the classifiers we build so far. However, the sensitivity rate has significantly improved to 34%.  
+
+![Ann Balanced Performance]()
+
+
 
 
 Reference
