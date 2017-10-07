@@ -207,6 +207,19 @@ An SVM classifier using the balanced dataset generated an accuracy rate of 58.99
 
 ![Svm balanced model](https://user-images.githubusercontent.com/2644463/31310875-59f98b5c-ab5d-11e7-87b0-f7a64a27f44b.PNG)
 
+Tuning the SVM model
+
+Can tuning the SVM learner improve the performance of the model? The SVM classifier was tuned to find out the best gamma and cost parameters using the tune.svm() function. 
+
+![svm tune]()
+
+The best parameters are a 0.01 gamma and a 100 cost. 
+
+![svm_best parameters]()
+
+
+
+
 
 
 
