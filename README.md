@@ -191,7 +191,7 @@ The poor sensitivity rate observed in both the ANN and SVM learners is an indica
 
 To balance the dataset, ROSS package has been used. 
 
-![Ross balanced]()
+![Ross balanced](https://user-images.githubusercontent.com/2644463/31310781-6252c716-ab5b-11e7-8706-628065e7683e.PNG)
 
 Using oversampling technique, ROSE replicated the now-show observations to balance the dataset. Now, the proportion of the dataset is 50% of each class. 
 
