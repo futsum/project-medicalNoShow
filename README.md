@@ -1,4 +1,4 @@
-Prediction of Medical Appointment No-Shows
+**Prediction of Medical Appointment No-Shows**
 
 According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare cost (Kim, Myers, & Allen, 2017). 
 
@@ -6,11 +6,11 @@ This project will attempt to develop a model that can predict those patients tha
 
 R programming will be used for this project. Since the project is trying to predict no-show patients, a classification method will be used. A learner will be trained using a supervised learning method. The first part of the project will focus on exploratory data analysis; in the second part, machine learning model will be built to predict no-show patients. Both visual and non-visual analytical methods will be used to demonstrate the project. 
 
-Data Collection
+**Data Collection**
 
 A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil. This dataset is a medium-sized dataset with about 300,000 observations and 15 variables, and it is readily available in CSV format. 
 
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 
 
 The dataset has 15 variables and 300,000 observations. Our target variable is Status; we are interested in the variable Status as we are trying to predict those patients who are inclined to miss medical appointments. There are no missing values in our dataset. The explanatory variables are: 
@@ -92,17 +92,17 @@ There seems to be slightly more no-shows in younger (roughly below 45) ages than
 ![Age Awaitint Time](https://user-images.githubusercontent.com/2644463/31311662-244fbf6a-ab6e-11e7-92c7-c95324aad298.PNG)
 
 
-Preparing the data for model building
+**Preparing the data for model building**
 
 Because the observations (299,996) in the dataset is fairly large, only 10% (29,831) of the observations is used for this project. The observations are randomly selected from the original data; that is, the composition of the new subset data is the same as the original data with 30% no-shows. This will significantly reduce the computing time of the analysis.
 
-Converting the factor variables into integer using dummies
+**Converting the factor variables into integer using dummies**
 
 The categorical variables (Gender, Day, & Appointment Month) are converted into integer variables by coding them using dummies. The target variable (Status) is left as a categorical variable since the goal is to predict the class of a categorical variable. 
 
 ![Dummy variables](https://user-images.githubusercontent.com/2644463/31247054-af2aa36e-a9cc-11e7-8819-94101929572e.PNG)
 
-Normalizing some of the variables
+**Normalizing some of the variables**
 
 The range of the values of some of the variables (Age & Awaiting Time) is wider than the rest of the variables. These two variables need to be normalized so that they don’t have unfair influence on the classifier. After normalizing these variables, the result is that all the variables are with the range of 0 and 1. 
 
@@ -112,16 +112,16 @@ Now, the new dataset consists the targeted, normalized, dummied and the rest of 
 
 ![new data](https://user-images.githubusercontent.com/2644463/31247910-471772a4-a9cf-11e7-946a-0b1288537f8d.PNG)
 
-Training and Test Sets
+**Training and Test Sets**
 
 The dataset is split into training (70%) and test (30%) sets; training set is used to train the learner and a test set is used to evaluate the performance of the learner. Both sets reflect the original dataset with a record of 30% of no-shows and 70% show-ups. 
 
 
 ![proportion of Status](https://user-images.githubusercontent.com/2644463/31259609-3e2c95f8-aa05-11e7-9034-2a93b204d0f7.PNG)
 
-Model Building
+**Model Building**
 
-Artificial Neural Network (ANN) Model
+**Artificial Neural Network (ANN) Model**
 
 In this project, the nnet package is used to build an artificial neural network (ANN) classifier. The ANN classifier was trained using the training set. With some trial and error on the parameters of the nnet function, a hidden layer of size 30, a maximum iteration of 1000, and a decay of 5e-4 seems to produce a better outcome. 
 
@@ -131,7 +131,7 @@ The model is a 31-30-1 network with 991 weights.
 
 ![Ann Summary1](https://user-images.githubusercontent.com/2644463/31260185-5d1bfc66-aa09-11e7-9ba4-de68a7607625.PNG)
 
-Prediction 
+**Prediction**
 The ANN classifier was used to predict the status of the examples in the test set. 
 
 ![Ann prediction1](https://user-images.githubusercontent.com/2644463/31260424-14d89750-aa0b-11e7-920b-86836c1367c3.PNG)
@@ -140,13 +140,13 @@ The prediction outcome of the first 6 examples are:
 
 ![Ann Prediction Outcome1](https://user-images.githubusercontent.com/2644463/31260434-2420a004-aa0b-11e7-9eed-b72943d5c030.PNG)
 
-Performance Evaluation
+**Performance Evaluation**
 
 The overall accuracy of the learner is 66.92%. The sensitivity rate (true positive or no-show agreement between the predicted and the observed values) is 13.4% and the specificity rate (true negative or show-up agreement between the predicted and the observed values) is 90%. A Kappa of 4.3% indicates a poor agreement between the predicted and observed values. The interest of the project is to target potential no-show patients. At 13.4%, the model misclassified 2,334 no-show patients as show-up patients. At this sensitivity rate, the model’s performance can be considered as poor. Had the interest been on the show-up, a 90% specificity rate could have been considered a strong performance. 
 
 ![Ann Performance1](https://user-images.githubusercontent.com/2644463/31260968-c2ebc256-aa0e-11e7-9be5-59f356ca8d72.PNG)
 
-Support Vector Machine (SVM) Model
+**Support Vector Machine (SVM) Model**
 
 Support Vector Machine (SVM) was used to develop a classifier and compare it with the ANN model. The e1071 package was used to develop a SVM learner. 
 
@@ -159,7 +159,7 @@ Different kernel types (linear, radial, and sigmoid) have been used to develop t
 ![SVM Performance](https://user-images.githubusercontent.com/2644463/31262735-66fd8428-aa1a-11e7-85c1-2123a9351c3d.PNG)
 
 
-Feature Selection
+**Feature Selection**
 
 Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of feature that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
 
@@ -169,7 +169,7 @@ Listing the importance of the selected features:
 
 ![Importance of Features](https://user-images.githubusercontent.com/2644463/31261533-136d6d76-aa12-11e7-979a-c63a0c4e3a44.PNG)
 
-ANN model using the selected features
+**ANN model using the selected features**
 
 Using the selected features, another ANN classifier was built. 
 
@@ -179,7 +179,7 @@ This classifier has an overall accuracy rate of 69.66%, sensitivity rate of 1.8%
 
 ![Ann perfromance2](https://user-images.githubusercontent.com/2644463/31261885-5fd56400-aa14-11e7-9324-5e0299a2f052.PNG)
 
-SVM model using the selected features
+**SVM model using the selected features**
 
 Using the selected features, another SVM classifier was built. 
 
@@ -189,7 +189,7 @@ This model produced the same performance outcome as the previous SVM model.
 
 ![SVM performance2](https://user-images.githubusercontent.com/2644463/31263217-089703c4-aa1e-11e7-96a4-93cac3c31099.PNG)
 
-Balancing the dataset
+**Balancing the dataset**
 
 The poor sensitivity rate observed in both the ANN and SVM learners is an indication of an imbalanced classification dataset; the majority status of the examples is a show-up; show-ups outnumber no-shows. The model is not getting enough information about the minority (no-show) status. Therefore, the model is biased towards show-ups, and it misclassifies the no-shows as show-ups when predicting the status of an example. 
 
@@ -205,13 +205,13 @@ Using the balanced dataset, the accuracy rate of an ANN model is 60.82% and the 
 
 ![Ann Balanced Performance](https://user-images.githubusercontent.com/2644463/31310789-7795d00a-ab5b-11e7-9099-b65687e24371.PNG)
 
-SVM model using the balanced dataset
+**SVM model using the balanced dataset**
 
 An SVM classifier using the balanced dataset generated an accuracy rate of 58.99% and a specificity of 64.17%; very low comparing with the above models. However, the sensitivity rate has increased to 47%, which is quite an improvement. 
 
 ![Svm balanced model](https://user-images.githubusercontent.com/2644463/31310875-59f98b5c-ab5d-11e7-87b0-f7a64a27f44b.PNG)
 
-Tuning the SVM model
+**Tuning the SVM model**
 
 Can tuning the SVM learner improve the performance of the model? The SVM classifier was tuned to find out the best gamma and cost parameters using the tune.svm() function. 
 
@@ -229,7 +229,7 @@ Using the best gamma and cost parameters, the accuracy rate of a SVM learners is
 
 ![smv tuned performance](https://user-images.githubusercontent.com/2644463/31310992-31acdb9c-ab60-11e7-9fa8-215417006309.PNG)
 
-Model Comparison
+**Model Comparison**
 
 The ANN classifier built with the selected features produced a higher accuracy rate (69.66%) and specificity rate (99.1%). The ANN classifier built with the balanced dataset produced a higher sensitivity rate (34.04%) and a higher Kappa rate (6.5%). The is a tradeoff between the accuracy/specificity rate and the sensitivity rate of the model. Since the goal of the project is to identify the no-shows, the model built with the balanced dataset is a better candidate. 
 
@@ -248,7 +248,7 @@ Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and
 
 
 
-Reference
+**Reference**
 
 Kim, S. H., Myers, C. G., & Allen, L. (2017, August 31). Health Care Providers Can Use Design Thinking to Improve Patient Experiences. Harvard Business Review. Retrieved from https://hbr.org/2017/08/health-care-providers-can-use-design-thinking-to-improve-patient-experiences
 
