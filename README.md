@@ -237,7 +237,7 @@ Both the default SVM classifier and the SVM model built using the selected featu
 
 Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and the tuned SVM classifier outperformed the ANN classifier built using the balance dataset when sensitivity and Kappa metrics are considered. For the objectives of the project, the SVM model with the balanced dataset is a better candidate followed by the tuned SVM model. 
 
-![SVM ANN Comparison]()
+![SVM ANN Comparison](https://user-images.githubusercontent.com/2644463/31311406-ad2b7e38-ab68-11e7-84f9-f31230611612.PNG)
 
 
 
