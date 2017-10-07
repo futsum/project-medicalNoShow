@@ -199,7 +199,7 @@ Using oversampling technique, ROSE replicated the now-show observations to balan
 
 Using the balanced dataset, the accuracy rate of an ANN model is 60.82% and the specificity rate is 72.45%, both metrics are less than the classifiers we build so far. However, the sensitivity rate has significantly improved to 34%.  
 
-![Ann Balanced Performance]()
+![Ann Balanced Performance](https://user-images.githubusercontent.com/2644463/31310789-7795d00a-ab5b-11e7-9099-b65687e24371.PNG)
 
 
 
