@@ -215,7 +215,7 @@ Can tuning the SVM learner improve the performance of the model? The SVM classif
 
 The best parameters are a 0.01 gamma and a 100 cost. 
 
-![svm_best parameters]()
+![svm_best parameters](https://user-images.githubusercontent.com/2644463/31310962-62ec784e-ab5f-11e7-9ed6-a34a06edce16.PNG)
 
 
 
