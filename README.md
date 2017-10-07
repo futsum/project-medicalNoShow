@@ -201,6 +201,12 @@ Using the balanced dataset, the accuracy rate of an ANN model is 60.82% and the 
 
 ![Ann Balanced Performance](https://user-images.githubusercontent.com/2644463/31310789-7795d00a-ab5b-11e7-9099-b65687e24371.PNG)
 
+SVM model using the balanced dataset
+
+An SVM classifier using the balanced dataset generated an accuracy rate of 58.99% and a specificity of 64.17%; very low comparing with the above models. However, the sensitivity rate has increased to 47%, which is quite an improvement. 
+
+![Svm balanced model]()
+
 
 
 
