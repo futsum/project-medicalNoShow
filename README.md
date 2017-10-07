@@ -195,7 +195,7 @@ To balance the dataset, ROSS package has been used.
 
 Using oversampling technique, ROSE replicated the now-show observations to balance the dataset. Now, the proportion of the dataset is 50% of each class. 
 
-![Balanced data Proportion]()
+![Balanced data Proportion](https://user-images.githubusercontent.com/2644463/31310785-6cbb9b06-ab5b-11e7-8139-27ea0fc2c31a.PNG)
 
 Using the balanced dataset, the accuracy rate of an ANN model is 60.82% and the specificity rate is 72.45%, both metrics are less than the classifiers we build so far. However, the sensitivity rate has significantly improved to 34%.  
 
