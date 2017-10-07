@@ -211,7 +211,7 @@ Tuning the SVM model
 
 Can tuning the SVM learner improve the performance of the model? The SVM classifier was tuned to find out the best gamma and cost parameters using the tune.svm() function. 
 
-![svm tune]()
+![svm tune](https://user-images.githubusercontent.com/2644463/31310959-571b6fac-ab5f-11e7-91b9-4da42c25c26f.PNG)
 
 The best parameters are a 0.01 gamma and a 100 cost. 
 
