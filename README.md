@@ -225,6 +225,22 @@ Using the best gamma and cost parameters, the accuracy rate of a SVM learners is
 
 ![smv tuned performance](https://user-images.githubusercontent.com/2644463/31310992-31acdb9c-ab60-11e7-9fa8-215417006309.PNG)
 
+Model Comparison
+
+The ANN classifier built with the selected features produced a higher accuracy rate (69.66%) and specificity rate (99.1%). The ANN classifier built with the balanced dataset produced a higher sensitivity rate (34.04%) and a higher Kappa rate (6.5%). The is a tradeoff between the accuracy/specificity rate and the sensitivity rate of the model. Since the goal of the project is to identify the no-shows, the model built with the balanced dataset is a better candidate. 
+
+![ANN Comparison]()
+
+Both the default SVM classifier and the SVM model built using the selected features have a higher accuracy rate (69.73) and specificity rate (100%). However, they both have a 0% sensitivity rate and a 0% Kappa rate. On the other hand, the SVM classifier built using the balanced dataset has higher sensitivity rate (47.05%) and a higher Kappa rate (10.35%), followed by the tuned SVM model. Again, since the goal of the project is to identify the no-shows, the SVM model with the balanced dataset is a better candidate. 
+
+![SVM Comparison]()
+
+Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and the tuned SVM classifier outperformed the ANN classifier built using the balance dataset when sensitivity and Kappa metrics are considered. For the objectives of the project, the SVM model with the balanced dataset is a better candidate followed by the tuned SVM model. 
+
+![SVM ANN Comparison]()
+
+
+
 
 
 
