@@ -205,7 +205,7 @@ SVM model using the balanced dataset
 
 An SVM classifier using the balanced dataset generated an accuracy rate of 58.99% and a specificity of 64.17%; very low comparing with the above models. However, the sensitivity rate has increased to 47%, which is quite an improvement. 
 
-![Svm balanced model]()
+![Svm balanced model](https://user-images.githubusercontent.com/2644463/31310875-59f98b5c-ab5d-11e7-87b0-f7a64a27f44b.PNG)
 
 
 
