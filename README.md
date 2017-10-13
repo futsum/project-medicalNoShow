@@ -2,7 +2,7 @@
 <h2 align = "center"> Prediction Model for Medical Appointment No-Shows </h2>
 
 
-According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare cost (Kim, Myers, & Allen, 2017). 
+Medical appointment no-show happens when a patient fails to keep or cancel a scheduled appointment for some reasons. Some of the reasons for no-shows are: forgetting appointments, bad weather condition, lack of transportation, financial problem, physical or mental unwellness, etc (Alaeddinni, Yang, Reeves, & Reddy, 2015). According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare cost (Kim, Myers, & Allen, 2017). 
 
 This project will attempt to develop a model that can predict those patients that are prone to miss medical appointments. Using historical medical dataset, a model can predict the behavior of patients regarding medical appointments. By predicting patients inclined to miss appointments, healthcare providers can design creative ways to solve the problem and encourage or help patients to keep their appointments.
 
