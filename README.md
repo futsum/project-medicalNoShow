@@ -1,6 +1,6 @@
-<p align = "right">
-<h2> Prediction Model for Medical Appointment No-Shows </h2>
-</p>
+
+<h2 align = "center"> Prediction Model for Medical Appointment No-Shows </h2>
+
 
 According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare cost (Kim, Myers, & Allen, 2017). 
 
