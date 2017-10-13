@@ -45,7 +45,7 @@ The dataset has 15 variables and 300,000 observations. The target variable is St
 
 Another variable that shows the month on which the appointment date fall (Appointment Month) was added. After initial data preparation, the structure of the dataset looks like: -
 
-![data structure](https://user-images.githubusercontent.com/2644463/30719962-ef3d7d9a-9ee2-11e7-9fbc-167650c2529e.PNG)
+![data structure](https://user-images.githubusercontent.com/2644463/31567126-301677a0-b02b-11e7-848d-ed10ea117810.PNG)
 
 Since the variables appointment registration data and appointment date are not useful for our classification, we will remove them from our dataset; we used both variables to create the variables awaiting time and appointment month, which we will use for the classification. Upon examining the summary of the dataset, the variable age has four negative values; this doesn’t make any sense. We will remove these four observations from the dataset; since the four observations are a fraction of the total 300,000 observations, removing them won’t affect our analysis. Now, our dataset has 14 variables and 299996 observations. 
 
