@@ -43,7 +43,7 @@ The dataset has 15 variables and 300,000 observations. The target variable is St
 
 •	Awaiting time – the number of days a patient has to wait to see a doctor
 
-We added another variable that shows the month on which the appointment date fall (Appointment Month). After initial data preparation, the structure of the dataset looks like: -
+Another variable that shows the month on which the appointment date fall (Appointment Month) was added. After initial data preparation, the structure of the dataset looks like: -
 
 ![data structure](https://user-images.githubusercontent.com/2644463/30719962-ef3d7d9a-9ee2-11e7-9fbc-167650c2529e.PNG)
 
