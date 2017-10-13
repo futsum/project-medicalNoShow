@@ -10,7 +10,7 @@ R programming will be used for this project. Since the project is trying to pred
 
 **Data Collection**
 
-A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a medium-sized dataset with about 300,000 observations and 15 variables, and it is readily available in CSV format. 
+A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a large-sized dataset with 300,000 observations and 15 variables, and it is available in CSV format. 
 
 **Exploratory Data Analysis**
 
