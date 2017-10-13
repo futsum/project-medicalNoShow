@@ -10,7 +10,7 @@ R programming will be used for this project. Since the project is trying to pred
 
 **Data Collection**
 
-A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil. This dataset is a medium-sized dataset with about 300,000 observations and 15 variables, and it is readily available in CSV format. 
+A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a medium-sized dataset with about 300,000 observations and 15 variables, and it is readily available in CSV format. 
 
 **Exploratory Data Analysis**
 
@@ -251,6 +251,8 @@ Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and
 
 
 **Reference**
+
+Alaeddinni, A., Yang, K., Reeves, P., & Reddy, C. K. (2015). A hybrid prediction model for no-shows and cancellations of outpatient appointments. IIE Transactions on Healthcare Systems Engineering 5, 14–32. DOI: 10.1080/19488300.2014.993006
 
 Kim, S. H., Myers, C. G., & Allen, L. (2017, August 31). Health Care Providers Can Use Design Thinking to Improve Patient Experiences. Harvard Business Review. Retrieved from https://hbr.org/2017/08/health-care-providers-can-use-design-thinking-to-improve-patient-experiences
 
