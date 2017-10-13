@@ -1,4 +1,4 @@
-<p align = "center">
+<p align = "right">
 <h2> Prediction Model for Medical Appointment No-Shows </h2>
 </p>
 
