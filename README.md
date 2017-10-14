@@ -51,7 +51,7 @@ Since the variables appointment registration data and appointment date are not u
 
 The median age of the patients is 38 and there are more women (67%) patients than men (33%). The average waiting period is 13 days. July record the highest number of appointments; regarding day of the week, Wednesday set the highest number of appointments. 
 
-![summary](https://user-images.githubusercontent.com/2644463/30721186-0396cbac-9ee8-11e7-89bb-957b99636470.PNG)
+![summary](https://user-images.githubusercontent.com/2644463/31571568-8f16605e-b052-11e7-8a54-c3655688740d.PNG)
 
 When we look at the appointment status, about 30% of patients failed to show up for their appointments; more patients (70%) kept their appointments.  
 
