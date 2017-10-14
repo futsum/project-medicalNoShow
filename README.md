@@ -49,7 +49,7 @@ Date variables were converted to date format; date variables were used to calcul
 
 Since the variables appointment registration data and appointment date are not useful for the classification, they are removed from further analysis; both variables were used to create the variables awaiting time and appointment month, which will be used for the classification. Upon examining the summary of the dataset, the variable age has four negative values; this doesn’t make any sense. We will remove these four observations from the dataset; since the four observations are a fraction of the total 300,000 observations, removing them won’t affect our analysis. Now, our dataset has 14 variables and 299996 observations. 
 
-The median age of the patients is 38 and there are more than twice women patients than men. The average waiting period is 13 days. July record the highest number of appointments; regarding day of the week, Wednesday set the highest number of appointments. 
+The median age of the patients is 38 and there are more women (67%) patients than men (33%). The average waiting period is 13 days. July record the highest number of appointments; regarding day of the week, Wednesday set the highest number of appointments. 
 
 ![summary](https://user-images.githubusercontent.com/2644463/30721186-0396cbac-9ee8-11e7-89bb-957b99636470.PNG)
 
