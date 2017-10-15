@@ -53,7 +53,7 @@ The median age of the patients is 38 and there are more women (67%) patients tha
 
 ![summary](https://user-images.githubusercontent.com/2644463/31571568-8f16605e-b052-11e7-8a54-c3655688740d.PNG)
 
-When we look at the appointment status, about 30% of patients failed to show up for their appointments; more patients (70%) kept their appointments.  
+Looking at the appointment status, about 30% of patients failed to show up for their appointments; more patients (70%) kept their appointments.  
 
 ![status](https://user-images.githubusercontent.com/2644463/30722033-16dc1222-9eec-11e7-810d-bc4cee0e651c.PNG)
 
