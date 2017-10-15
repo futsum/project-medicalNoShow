@@ -157,7 +157,7 @@ The overall accuracy of the learner is 66.92%. The sensitivity rate (true positi
 
 **Support Vector Machine (SVM) Model**
 
-Support Vector Machine (SVM) was used to develop a classifier and compare it with the ANN model. The e1071 package was used to develop a SVM learner. 
+Support Vector Machine (SVM) was used to develop a classifier. The e1071 package was used to develop a SVM learner. 
 
 ![SVM Model1](https://user-images.githubusercontent.com/2644463/31262726-525c5666-aa1a-11e7-8f46-048db47c41a9.PNG)
 
@@ -254,7 +254,10 @@ Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and
 
 <h3> Summary </h3>
 
-**Reference**
+To lower healthcare cost and to provide a smooth healthcare service, healthcare providers need to address the problem of medical appointment no-shows. One way of addressing the no-show issue is to predict the behavior of patients; whether or not they keep medical appointments. Machine learning models, such as ANN and SVM, can help to identify those patients who are prone to fail to keep their appointments. 
+In this project, different ANN and SVM classifiers were developed. The performance of each classifier was evaluated. Since the goal of the project is to identify the potential no-show patients (true positive), more weight was given to the sensitivity rate of the classifiers than the overall accuracy or specificity rate. According the result, at 47% sensitivity rate, a SVM classifier that used a balanced dataset outperformed the other classifiers. 
+
+<h3> Reference </h3
 
 Alaeddinni, A., Yang, K., Reeves, P., & Reddy, C. K. (2015). A hybrid prediction model for no-shows and cancellations of outpatient appointments. IIE Transactions on Healthcare Systems Engineering 5, 14–32. DOI: 10.1080/19488300.2014.993006
 
