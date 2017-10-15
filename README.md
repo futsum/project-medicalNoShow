@@ -6,7 +6,7 @@ Medical appointment no-show happens when a patient fails to keep or cancel a sch
 
 This project will attempt to develop a model that can predict those patients that are prone to miss medical appointments. Using historical medical dataset, a model can predict the behavior of patients regarding medical appointments. By predicting patients inclined to miss appointments, healthcare providers can design creative ways to solve the problem and encourage or help patients to keep their appointments.
 
-R programming will be used for this project. Since the project is trying to predict no-show patients, a classification method will be used. A learner will be trained using a supervised learning method. The first part of the project will focus on exploratory data analysis; in the second part, machine learning model will be built to predict no-show patients. Both visual and non-visual analytical methods will be used to demonstrate the project. 
+R programming will be used for this project. Since the project is trying to predict no-show patients, a classification method will be used. A learner will be trained using a supervised learning method. The first part of the project will focus on exploratory data analysis; in the second part, machine learning models using Artificial Neural Network (ANN) and Support Vector Machine (SVM) will be built to predict no-show patients. The performance of the ANN and SVM models will be compared. Finally, the classifier with the best performance result will be recommended as an ideal model for the project. 
 
 **Data Collection**
 
