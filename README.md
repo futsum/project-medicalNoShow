@@ -261,6 +261,8 @@ In this project, different ANN and SVM classifiers were developed. The performan
 
 Alaeddinni, A., Yang, K., Reeves, P., & Reddy, C. K. (2015). A hybrid prediction model for no-shows and cancellations of outpatient appointments. IIE Transactions on Healthcare Systems Engineering 5, 14–32. DOI: 10.1080/19488300.2014.993006
 
+Hoppen, J (2017). Medical Appointments No Shows. Retrieved from https://www.kaggle.com/joniarroba/noshowappointments/version/1
+
 Kim, S. H., Myers, C. G., & Allen, L. (2017, August 31). Health Care Providers Can Use Design Thinking to Improve Patient Experiences. Harvard Business Review. Retrieved from https://hbr.org/2017/08/health-care-providers-can-use-design-thinking-to-improve-patient-experiences
 
 
