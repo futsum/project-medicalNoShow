@@ -8,6 +8,10 @@ This project will attempt to develop a model that can predict those patients tha
 
 R programming will be used for this project. Since the project is trying to predict no-show patients, a classification method will be used. A learner will be trained using a supervised learning method. The first part of the project will focus on exploratory data analysis; in the second part, machine learning models using Artificial Neural Network (ANN) and Support Vector Machine (SVM) will be built to predict no-show patients. The performance of the ANN and SVM models will be compared. Finally, the classifier with the best performance result will be recommended as an ideal model for the project. 
 
+To conduct the data analysis, the following R packages will be used:
+
+![Required Packages](https://user-images.githubusercontent.com/2644463/31588136-da39716c-b1aa-11e7-9098-8be6f398ffc4.PNG)
+
 <h3> Data Collection </h3>
 
 A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a large-sized dataset with 300,000 observations and 15 variables; some of the variables are numeric data type, and the rest are categorical and date types. The dataset is available in CSV format.  
@@ -123,6 +127,8 @@ The dataset is split into training (70%) and test (30%) sets; training set is us
 ![proportion of Status](https://user-images.githubusercontent.com/2644463/31259609-3e2c95f8-aa05-11e7-9034-2a93b204d0f7.PNG)
 
 **Model Building**
+
+Both Artificial neural network (ANN) and Support Vector Machine (SVM) were used to develop classifiers. The performance of the classifiers will be evaluated. 
 
 **Artificial Neural Network (ANN) Model**
 
