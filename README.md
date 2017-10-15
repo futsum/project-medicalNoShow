@@ -8,11 +8,11 @@ This project will attempt to develop a model that can predict those patients tha
 
 R programming will be used for this project. Since the project is trying to predict no-show patients, a classification method will be used. A learner will be trained using a supervised learning method. The first part of the project will focus on exploratory data analysis; in the second part, machine learning models using Artificial Neural Network (ANN) and Support Vector Machine (SVM) will be built to predict no-show patients. The performance of the ANN and SVM models will be compared. Finally, the classifier with the best performance result will be recommended as an ideal model for the project. 
 
-**Data Collection**
+#Data Collection#
 
 A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a large-sized dataset with 300,000 observations and 15 variables; some of the variables are numeric data type, and the rest are categorical and date types. The dataset is available in CSV format.  
 
-**Exploratory Data Analysis**
+#Exploratory Data Analysis#
 
 
 The dataset has 15 variables and 300,000 observations. The target variable is Status; the interest is in the variable Status as the project tries to predict those patients who are inclined to miss medical appointments. There are no missing values in the dataset. The explanatory variables are: 
@@ -91,7 +91,9 @@ July saw the highest appointment record followed by October. Among the months, D
 
 There seems to be slightly more no-shows in younger (roughly below 45) ages than older ones. Also, long waiting period was observed for children and adults with age roughly above 35 years old. 
 
-![Age Awaitint Time](https://user-images.githubusercontent.com/2644463/31311662-244fbf6a-ab6e-11e7-92c7-c95324aad298.PNG)
+![Age Awaitint Time](https://user-images.githubusercontent.com/2644463/31311662-244fbf6a-ab6e-11e7-92c7-c95324aad298.PNG)    
+
+#Data Analysis#
 
 
 **Preparing the data for model building**
