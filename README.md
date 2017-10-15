@@ -101,7 +101,7 @@ Because the observations (299,996) in the dataset is fairly large, only 10% (29,
 
 **Converting the factor variables into integer using dummies**
 
-The categorical variables (Gender, Day, & Appointment Month) are converted into integer variables by coding them using dummies. The target variable (Status) is left as a categorical variable since the goal is to predict the class of a categorical variable. 
+The categorical variables (Gender, Day, & Appointment Month) are converted into integer variables by coding them using dummies. The target variable (Status) is left as a categorical variable since the goal is to predict the class of a categorical variable (Status). 
 
 ![Dummy variables](https://user-images.githubusercontent.com/2644463/31247054-af2aa36e-a9cc-11e7-8819-94101929572e.PNG)
 
