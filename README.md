@@ -2,7 +2,7 @@
 <h2 align = "center"> Prediction Model for Medical Appointment No-Shows </h2>
 
 
-Medical appointment no-show happens when a patient fails to keep or cancel a scheduled appointment for some reasons. Some of the reasons for no-shows are: forgetting appointments, bad weather condition, lack of transportation, financial problem, physical or mental unwellness, etc (Alaeddinni, Yang, Reeves, & Reddy, 2015). According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare cost (Kim, Myers, & Allen, 2017). 
+Medical appointment no-shows happen when a patient fails to keep or cancel a scheduled appointment for some reason. Some of the reasons for no-shows are: forgetting appointments, bad weather conditions, lack of transportation, financial problems, physical or mental illness, etc (Alaeddinni, Yang, Reeves, & Reddy, 2015). According to an article in Harvard Business Review (HBR), approximately 3.6 million people miss medical appointments each year. Missed appointments not only create an obstacle in providing medical care to the patients, it also cost billions of dollars to the healthcare provider. Addressing the issue can improve patient experience and lower healthcare costs (Kim, Myers, & Allen, 2017). 
 
 This project will attempt to develop a model that can predict those patients that are prone to miss medical appointments. Using historical medical dataset, a model can predict the behavior of patients regarding medical appointments. By predicting patients inclined to miss appointments, healthcare providers can design creative ways to solve the problem and encourage or help patients to keep their appointments.
 
@@ -14,7 +14,7 @@ To conduct the data analysis, the following R packages will be used:
 
 <h3> Data Collection </h3>
 
-A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset is collected by healthcare providers in Brazil in 2014. This dataset is a large-sized dataset with 300,000 observations and 15 variables; some of the variables are numeric data type, and the rest are categorical and date types. The dataset is available in CSV format.  
+A dataset -Medical Appointment No-Shows, from Kaggle will be used for this project. The dataset was collected by healthcare providers in Brazil in 2014. This dataset is a large-sized dataset with 300,000 observations and 15 variables; some of the variables are numeric data type, and the rest are categorical and date types. The dataset is available in CSV format.  
 
 <h3> Exploratory Data Analysis </h3>
 
@@ -47,13 +47,13 @@ The dataset has 15 variables and 300,000 observations. The target variable is St
 
 •	Awaiting time – the number of days a patient has to wait to see a doctor
 
-Date variables were converted to date format; date variables were used to calculate the length of the appointment waiting time. Another variable that shows the month on which the appointment date fall (Appointment Month) was added. After initial data preparation, the structure of the dataset looks like: -
+Date variables were converted to date format; date variables were used to calculate the length of the appointment waiting time. Another variable that shows the month on which the appointment date falls (Appointment Month) was added. After initial data preparation, the structure of the dataset looks like: -
 
 ![data structure](https://user-images.githubusercontent.com/2644463/31567126-301677a0-b02b-11e7-848d-ed10ea117810.PNG)
 
 Since the variables appointment registration data and appointment date are not useful for the classification, they are removed from further analysis; both variables were used to create the variables awaiting time and appointment month, which will be used for the classification. Upon examining the summary of the dataset, the variable age has four negative values; this doesn’t make any sense. These four observations are removed from the dataset; since the four observations are only a fraction of the total 300,000 observations, removing them won’t affect the data analysis. Now, the dataset has 14 variables and 299996 observations. 
 
-The median age of the patients is 38 and there are more women (67%) patients than men (33%). The average waiting period is 13 days. July record the highest number of appointments; regarding day of the week, Wednesday set the highest number of appointments. 
+The median age of the patients is 38 and there are more women (67%) patients than men (33%). The average waiting period is 13 days. July recorded the highest number of appointments; regarding day of the week, Wednesday set the highest number of appointments. 
 
 ![summary](https://user-images.githubusercontent.com/2644463/31571568-8f16605e-b052-11e7-8a54-c3655688740d.PNG)
 
@@ -73,7 +73,7 @@ Ten percent of the patients are in scholarship. Among those in scholarship, 36% 
 
 ![Status by Scholarship](https://user-images.githubusercontent.com/2644463/30723058-e6b8488a-9ef1-11e7-8435-6312e08854fd.PNG)
 
-About 57% of patients received an sms message reminders. The data shows that there was no difference on the percentage of no-show (30%) between those who received sms message reminders and those who didn’t. Text message reminders doesn’t seem to help patients to keep their medical appointments. 
+About 57% of patients received an sms message reminder. The data shows that there was no difference on the percentage of no-show (30%) between those who received sms message reminders and those who didn’t. Text message reminders doesn’t seem to help patients keep their medical appointments. 
 
 ![Status By SMS Reminder](https://user-images.githubusercontent.com/2644463/30723418-80ee0f00-9ef4-11e7-940a-d09c91a272db.PNG)
 
@@ -93,7 +93,7 @@ July saw the highest appointment record followed by October. Among the months, D
 
 ![Status by MonthII](https://user-images.githubusercontent.com/2644463/30725193-09eaed9a-9f00-11e7-9600-27f53c9f24a3.PNG)
 
-There seems to be slightly more no-shows in younger (roughly below 45) ages than older ones. Also, long waiting period was observed for children and adults with age roughly above 35 years old. 
+There seems to be slightly more no-shows in younger (roughly below 45) ages than older ones. Also, long waiting periods were observed for children and adults with ages roughly above 35 years old. 
 
 ![Age Awaitint Time](https://user-images.githubusercontent.com/2644463/31311662-244fbf6a-ab6e-11e7-92c7-c95324aad298.PNG)    
 
@@ -170,7 +170,7 @@ Different kernel types (linear, radial, and sigmoid) have been used to develop t
 
 **Feature Selection**
 
-Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of feature that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
+Can we improve the model’s performance using feature selection? Feature selection method helps to identify subset of features that are required to build a model; not all features are equally important in model building. A recursive feature elimination function from the caret package has been used to eliminate those features not necessary required to develop a model. The selected features are “Age”, “Awaiting Time”, and “Alcoholism”. 
 
 ![Selected Features](https://user-images.githubusercontent.com/2644463/31261532-0c8002da-aa12-11e7-8894-fd0b15113478.PNG)
 
@@ -240,7 +240,7 @@ Using the best gamma and cost parameters, the accuracy rate of a SVM learners is
 
 **Model Comparison**
 
-The ANN classifier built with the selected features produced a higher accuracy rate (69.66%) and specificity rate (99.1%). The ANN classifier built with the balanced dataset produced a higher sensitivity rate (34.04%) and a higher Kappa rate (6.5%). The is a tradeoff between the accuracy/specificity rate and the sensitivity rate of the model. Since the goal of the project is to identify the no-shows, the model built with the balanced dataset is a better candidate. 
+The ANN classifier built with the selected features produced a higher accuracy rate (69.66%) and specificity rate (99.1%). The ANN classifier built with the balanced dataset produced a higher sensitivity rate (34.04%) and a higher Kappa rate (6.5%). This a tradeoff between the accuracy/specificity rate and the sensitivity rate of the model. Since the goal of the project is to identify the no-shows, the model built with the balanced dataset is a better candidate. 
 
 ![ANN Comparison](https://user-images.githubusercontent.com/2644463/31311390-87591558-ab68-11e7-853a-7bb7628d5095.PNG)
 
@@ -255,7 +255,7 @@ Comparing the ANN and SVM classifiers, both SVM built using balanced dataset and
 <h3> Summary </h3>
 
 To lower healthcare cost and to provide a smooth healthcare service, healthcare providers need to address the problem of medical appointment no-shows. One way of addressing the no-show issue is to predict the behavior of patients; whether or not they keep medical appointments. Machine learning models, such as ANN and SVM, can help to identify those patients who are prone to fail to keep their appointments. 
-In this project, different ANN and SVM classifiers were developed. The performance of each classifier was evaluated. Since the goal of the project is to identify the potential no-show patients (true positive), more weight was given to the sensitivity rate of the classifiers than the overall accuracy or specificity rate. According the result, at 47% sensitivity rate, a SVM classifier that used a balanced dataset outperformed the other classifiers. 
+In this project, different ANN and SVM classifiers were developed. The performance of each classifier was evaluated. Since the goal of the project is to identify the potential no-show patients (true positive), more weight was given to the sensitivity rate of the classifiers than the overall accuracy or specificity rate. According to the results, at 47% sensitivity rate, a SVM classifier that used a balanced dataset outperformed the other classifiers. 
 
 <h3> Reference </h3
 
