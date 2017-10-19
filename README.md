@@ -267,4 +267,5 @@ Hoppen, J (2017). Medical Appointments No Shows. Retrieved from https://www.kagg
 
 Kim, S. H., Myers, C. G., & Allen, L. (2017, August 31). Health Care Providers Can Use Design Thinking to Improve Patient Experiences. Harvard Business Review. Retrieved from https://hbr.org/2017/08/health-care-providers-can-use-design-thinking-to-improve-patient-experiences
 
+Yu-Wei, C. (2016). Machine learning with R cookbook. Birmingham, UK. Packt Publishing Ltd. 
 
